@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="3.1.0" />
+    <PackageReference Include="Moq" Version="4.17.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UserAPI">
+      <HintPath>..\UserAPI\bin\Debug\netcoreapp3.1\UserAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
